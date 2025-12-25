@@ -11,7 +11,7 @@ h1 {
 
 .products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ✅ mỗi hàng 3 sản phẩm */
+  grid-template-columns: repeat(3, 1fr); /* mỗi hàng 3 sản phẩm */
   gap: 20px;
   padding: 20px;
 }
@@ -21,6 +21,7 @@ h1 {
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
+  overflow: hidden; /* ✅ quan trọng: không làm đẩy layout */
 }
 
 .product img {
@@ -28,11 +29,12 @@ h1 {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 12px;
+  transition: transform 0.3s ease; /* ✅ chuyển hiệu ứng sang ảnh */
 }
 
-.product:hover {
+/* ✅ chỉ scale ảnh – layout không bị chạy */
+.product:hover img {
   transform: scale(1.05);
-  transition: 0.3s;
 }
 
 /* ===== MODAL ===== */

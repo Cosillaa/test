@@ -139,343 +139,336 @@ const products = [
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma52.jpg", "images/ma521.jpg", "images/mma522a523.jpg", "images/ma523.jpg", "images/ma524.jpg", "images/ma525.jpg", "images/ma526.jpg", "images/ma527.jpg", "images/ma528.jpg"]
+    images: ["images/ma52.jpg", "images/ma521.jpg", "images/ma52.jpg", "images/ma523.jpg", "images/ma524.jpg", "images/ma525.jpg", "images/ma526.jpg", "images/ma527.jpg", "images/ma528.jpg"]
   },
   {
     name: "🌷 Mã : AD51 🌷",
     size: "S < 52kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma51.jpg", "images/ma511.jpg", "images/ma512.jpg", "images/ma513.jpg", "images/ma514.jpg", "images/ma515.jpg"]
   },
   {
     name: "🌷 Mã : AD50 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma50.jpg", "images/ma501.jpg", "images/ma502.jpg", "images/ma503.jpg", "images/ma504.jpg", "images/ma505.jpg", "images/ma506.jpg"]
   },
   {
     name: "🌷 Mã : AD49 🌷",
     size: "S <52kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma49.jpg", "images/ma491.jpg", "images/ma492.jpg"]
   },
   {
     name: "🌷 Mã : AD46 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma46.jpg", "images/ma461.jpg", "images/ma462.jpg", "images/ma463.jpg"]
   },
   {
     name: "🌷 Mã : AD45 🌷(áo be quần xanh cốm)",
     size: "S < 55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma45.jpg", "images/ma451.jpg", "images/ma452.jpg"]
   },
   {
     name: "🌷 Mã : AD44 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma44.jpg", "images/ma441.jpg", "images/ma442.jpg", "images/ma443.jpg", "images/ma444.jpg"]
   },
   {
     name: "🌷 Mã : AD43 🌷",
     size: "S < 50kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma43.jpg", "images/ma431.jpg", "images/ma432.jpg", "images/ma433.jpg", "images/ma434.jpg"]
   },
   {
     name: "🌷 Mã : AD35 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma35.jpg", "images/ma351.jpg", "images/ma352.jpg", "images/ma353.jpg", "images/ma354.jpg", "images/ma355.jpg"]
   },
   {
     name: "🌷 Mã : AD42 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma42.jpg", "images/ma421.jpg", "images/ma422.jpg", "images/ma423.jpg"]
   },
   {
     name: "🌷 Mã : AD41 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma41.jpg", "images/ma411.jpg", "images/ma412.jpg", "images/ma413.jpg", "images/ma414.jpg", "images/ma415.jpg", "images/ma416.jpg"]
   },
   {
     name: "🌷 Mã : AD38 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma38.jpg", "images/ma381.jpg", "images/ma382.jpg", "images/ma383.jpg", "images/ma384.jpg", "images/ma385.jpg", "images/ma386.jpg", "images/ma387.jpg", "images/ma388.jpg"]
   },
   {
     name: "🌷 Mã : AD39 🌷 ( hồng )",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma39.jpg", "images/ma391.jpg", "images/ma392.jpg", "images/ma393.jpg"]
   },
   {
     name: "🌷 Mã : AD14 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma14.jpg", "images/ma141.jpg", "images/ma142.jpg", "images/ma143.jpg", "images/ma144.jpg", "images/ma145.jpg", "images/ma146.jpg"]
   },
   {
     name: "🌷 Mã : AD12 🌷",
     size: "M < 60kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma12.jpg", "images/ma121.jpg", "images/ma122.jpg", "images/ma123.jpg", "images/ma124.jpg"]
   },
   {
     name: "🌷 Mã : AD11 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma11.jpg", "images/ma111.jpg", "images/ma112.jpg", "images/ma113.jpg", "images/ma114.jpg"]
   },
   {
     name: "🌷 Mã : AD40 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma40.jpg", "images/ma401.jpg", "images/ma402.jpg", "images/ma403.jpg", "images/ma404.jpg"]
   },
   {
     name: "🌷 Mã : AD37 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma37.jpg", "images/ma371.jpg", "images/ma372.jpg", "images/ma373.jpg", "images/ma374.jpg", "images/ma375.jpg"]
   },
   {
     name: "🌷 Mã : AD36 🌷",
     size: "L <55kg",
     price: "60🐟 / ngày",
     deposit: "250🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma36.jpg", "images/ma361.jpg", "images/ma362.jpg", "images/ma363.jpg", "images/ma364.jpg"]
   },
   {
     name: "🌷 Mã : AD10 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma10.jpg", "images/ma101.jpg", "images/ma102.jpg", "images/ma103.jpg"]
   },
   {
     name: "🌷 Mã : AD34 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma34.jpg", "images/ma341.jpg", "images/ma342.jpg", "images/ma343.jpg", "images/ma344.jpg"]
   },
   {
     name: "🌷 Mã : AD33 🌷",
     size: "Freesize",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma33.jpg", "images/ma331.jpg", "images/ma332.jpg", "images/ma333.jpg", "images/ma334.jpg", "images/ma335.jpg", "images/ma336.jpg"]
   },
   {
     name: "🌷 Mã : AD32 🌷",
     size: "L",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma32.jpg", "images/ma321.jpg", "images/ma322.jpg", "images/ma323.jpg", "images/ma324.jpg"]
   },
   {
     name: "🌷 Mã : AD31 🌷",
     size: "L",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma31.jpg", "images/ma311.jpg", "images/ma312.jpg", "images/ma313.jpg", "images/ma314.jpg"]
   },
   {
     name: "🌷 Mã : AD30 🌷",
     size: "S <50kg",
     price: "70🐟 / ngày",
     deposit: "200🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma30.jpg", "images/ma301.jpg", "images/ma302.jpg", "images/ma303.jpg", "images/ma304.jpg"]
   },
   {
     name: "🌷 Mã : AD29 🌷",
     size: "M <58kg",
     price: "60🐟 / ngày",
     deposit: "200🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma29.jpg", "images/ma291.jpg", "images/ma292.jpg", "images/ma293.jpg", "images/ma294.jpg", "images/ma295.jpg"]
   },
   {
     name: "🌷 Mã : AD28 🌷",
-    size: "Freesize",
+    size: "Freesize <56kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma28.jpg", "images/ma281.jpg", "images/ma282.jpg", "images/ma283.jpg", "images/ma284.jpg"]
   },
   {
     name: "🌷 Mã : AD27 🌷",
     size: "Freesize",
     price: "70🐟 / ngày",
     deposit: "200🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma27.jpg", "images/ma271.jpg", "images/ma272.jpg", "images/ma273.jpg", "images/ma274.jpg", "images/ma275.jpg", "images/ma276.jpg"]
   },
   {
     name: "🌷 Mã : AD26 🌷",
     size: "M <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma26.jpg", "images/ma261.jpg", "images/ma262.jpg", "images/ma263.jpg", "images/ma264.jpg"]
   },
   {
     name: "🌷 Mã : AD16 🌷",
-    size: "Freesize",
+    size: "Freesize <60kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma16.jpg", "images/ma161.jpg", "images/ma162.jpg", "images/ma163.jpg", "images/ma164.jpg"]
   },
   {
     name: "🌷 Mã : AD25 🌷 ( Đỏ )",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma25.jpg", "images/ma251.jpg", "images/ma252.jpg", "images/ma253.jpg", "images/ma254.jpg", "images/ma255.jpg"]
   },
   {
     name: "🌷 Mã : AD24 🌷",
     size: "S <50kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma24.jpg", "images/ma241.jpg", "images/ma242.jpg", "images/ma243.jpg"]
   },
   {
     name: "🌷 Mã : AD23 🌷 ( Hồng )",
-    size: "S <52kg",
+    size: "S <52kg (v1<82)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma23.jpg", "images/ma231.jpg", "images/ma232.jpg", "images/ma233.jpg", "images/ma234.jpg"]
   },
   {
     name: "🌷 Mã : AD22 🌷 ( Xanh )",
-    size: "S <52kg",
+    size: "S <52kg (v1<82)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma22.jpg", "images/ma221.jpg", "images/ma222.jpg", "images/ma223.jpg", "images/ma224.jpg"]
   },
   {
     name: "🌷 Mã : AD19 🌷",
-    size: "S <52kg",
+    size: "S <52kg (v1 <80)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma19.jpg", "images/ma191.jpg", "images/ma192.jpg", "images/ma193.jpg", "images/ma194.jpg", "images/ma195.jpg"]
   },
   {
     name: "🌷 Mã : AD21 🌷",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma21.jpg", "images/ma211.jpg", "images/ma212.jpg", "images/ma213.jpg", "images/ma214.jpg", "images/ma215.jpg", "images/ma216.jpg"]
   },
   {
     name: "🌷 Mã : AD18 🌷",
-    size: "M <52kg",
+    size: "M <52kg (v1<88)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma18.jpg", "images/ma181.jpg", "images/ma182.jpg", "images/ma183.jpg"]
   },
   {
-    name: "🌷 Mã : AD20 🌷",
-    size: "Freesize",
+    name: "🌷 Mã : AD20 🌷 (kèm mấn)",
+    size: "Freesize <56kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma20.jpg", "images/ma201.jpg", "images/ma202.jpg", "images/ma203.jpg"]
   },
   {
     name: "🌷 Mã : AD17 🌷",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma17.jpg", "images/ma171.jpg", "images/ma172.jpg", "images/ma173.jpg", "images/ma174.jpg", "images/ma175.jpg", "images/ma176.jpg"]
   },
   {
     name: "🌷 Mã : AD07 🌷 ( Đỏ )",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma07.jpg", "images/ma071.jpg", "images/ma072.jpg", "images/ma073.jpg", "images/ma074.jpg"]
   },
   {
     name: "🌷 Mã : AD13 🌷",
-    size: "S <52kg",
+    size: "S <52kg (v1<86 , v2<68)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
-  },
-  {
-    name: "🌷 Mã : AD09 🌷 ( Đỏ )",
-    size: "M <50kg",
-    price: "50🐟 / ngày",
-    deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma13.jpg", "images/ma131.jpg", "images/ma132.jpg", "images/ma133.jpg", "images/ma134.jpg"]
   },
   {
     name: "🌷 Mã : AD08 🌷",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma08.jpg", "images/ma081.jpg", "images/ma082.jpg", "images/ma083.jpg", "images/ma084.jpg"]
   },
   {
     name: "🌷 Mã : AD06 🌷",
-    size: "Freesize",
+    size: "Freesize <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma06.jpg", "images/ma061.jpg", "images/ma062.jpg", "images/ma063.jpg", "images/ma064.jpg", "images/ma065.jpg"]
   },
   {
     name: "🌷 Mã : AD05 🌷",
-    size: "Freesize",
+    size: "Freesize <60kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma05.jpg", "images/ma051.jpg", "images/ma052.jpg", "images/ma053.jpg", "images/ma054.jpg", "images/ma055.jpg"]
   },
   {
     name: "🌷 Mã : AD04 🌷",
     size: "M",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma04.jpg", "images/ma041.jpg", "images/ma042.jpg", "images/ma043.jpg", "images/ma044.jpg"]
   },
   {
     name: "🌷 Mã : AD03 🌷",
-    size: "M",
+    size: "M <55kg",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma03.jpg", "images/ma031.jpg", "images/ma032.jpg", "images/ma033.jpg", "images/ma034.jpg"]
   },
   {
     name: "🌷 Mã : AD02 🌷",
-    size: "L",
+    size: "L <55kg (eo <75, v1 < 90)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma02.jpg", "images/ma021.jpg", "images/ma022.jpg", "images/ma023.jpg", "images/ma024.jpg", "images/ma025.jpg"]
   },
   {
     name: "🌷 Mã : AD01 🌷",
-    size: "Freesize",
+    size: "Freesize <55kg (v1 <90)",
     price: "50🐟 / ngày",
     deposit: "150🐟",
-    images: ["images/ma63.jpg", "images/ma.jpg", "images/ma732.jpg", "images/ma733.jpg"]
+    images: ["images/ma01.jpg", "images/ma011.jpg", "images/ma012.jpg", "images/ma013.jpg"]
   },
 ];
 

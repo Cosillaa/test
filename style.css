@@ -21,7 +21,6 @@ h1 {
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
-  overflow: hidden; /* ✅ quan trọng: không làm đẩy layout */
 }
 
 .product img {
@@ -29,12 +28,11 @@ h1 {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: 12px;
-  transition: transform 0.3s ease; /* ✅ chuyển hiệu ứng sang ảnh */
 }
 
-/* ✅ chỉ scale ảnh – layout không bị chạy */
-.product:hover img {
+.product:hover {
   transform: scale(1.05);
+  transition: 0.3s;
 }
 
 /* ===== MODAL ===== */

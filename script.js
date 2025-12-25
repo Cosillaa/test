@@ -479,7 +479,7 @@ app.innerHTML = `
   <div class="products">
     ${products.map((p, i) => `
       <div class="product" onclick="openModal(${i})">
-        <img src="${p.images[0]}">
+        <img src="${p.images[0]}" loading="lazy">
         <h3>${p.name}</h3>
         <p><b>Size:</b> ${p.size}</p>
         <p><b>Giá thuê:</b> ${p.price}</p>

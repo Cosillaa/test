@@ -2,6 +2,55 @@ let currentIndex = 0;
 let currentImages = [];
 const products = [
   {
+    name: "🌷 Mã  : AD80 🌷",
+    size: "M <60kg",
+    price: "60🐟 / ngày",
+    deposit: "250🐟",
+    images: ["images/ma80.jpg", "images/ma801.jpg", "images/ma802.jpg", "images/ma803.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD79 🌷",
+    size: "Freesize <55kg",
+    price: "50🐟 / ngày",
+    deposit: "150🐟",
+    images: ["images/ma79.jpg", "images/ma791.jpg", "images/ma792.jpg", "images/ma793.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD78 🌷(Ngũ Thân kèm mấn)",
+    size: "M <55kg",
+    price: "80🐟 / ngày",
+    deposit: "250🐟",
+    images: ["images/ma78.jpg", "images/ma781.jpg", "images/ma782.jpg", "images/ma783.jpg", "images/ma784.jpg", "images/ma785.jpg", "images/ma786.jpg", "images/ma787.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD77 🌷",
+    size: "S <50kg",
+    price: "80🐟 / ngày",
+    deposit: "250🐟",
+    images: ["images/ma77.jpg", "images/ma771.jpg", "images/ma772.jpg", "images/ma773.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD76 🌷",
+    size: "Freesize",
+    price: "60🐟 / ngày",
+    deposit: "150🐟",
+    images: ["images/ma76.jpg", "images/ma761.jpg", "images/ma762.jpg", "images/ma763.jpg", "images/ma764.jpg", "images/ma765.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD75 🌷",
+    size: "S <48kg",
+    price: "50🐟 / ngày",
+    deposit: "150🐟",
+    images: ["images/ma75.jpg", "images/ma751.jpg", "images/ma752.jpg", "images/ma753.jpg", "images/ma754.jpg", "images/ma755.jpg"]
+  },
+  {
+    name: "🌷 Mã  : AD74 🌷(Xanh)",
+    size: "Freesize",
+    price: "50🐟 / ngày",
+    deposit: "150🐟",
+    images: ["images/ma74.jpg", "images/ma741.jpg", "images/ma742.jpg", "images/ma743.jpg", "images/ma744.jpg", "images/ma745.jpg", "images/ma746.jpg"]
+  },
+  {
     name: "🌷 Mã  : AD73 🌷",
     size: "Freesize <58kg",
     price: "80🐟 / ngày",

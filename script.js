@@ -2,6 +2,14 @@ let currentIndex = 0;
 let currentImages = [];
 const products = [
   {
+    name: "🌷 Mã  : AD81 🌷",
+    brand: "@wepretty.clothes",
+    size: "S <50kg",
+    price: "80🐟 / ngày",
+    deposit: "250🐟",
+    images: ["images/ma81.jpg", "images/ma811.jpg", "images/ma812.jpg"]
+  },
+  {
     name: "🌷 Mã  : AD80 🌷",
     brand: "@mieufashionista",
     size: "M <60kg",

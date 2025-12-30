@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin – Quản lý sản phẩm</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f7dce2;
+        padding: 40px;
+      }
+
+      .box {
+        max-width: 420px;
+        margin: auto;
+        background: #fff;
+        padding: 24px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      input,
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      button {
+        background: #e56b8f;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- LOGIN -->
+    <div class="box" id="loginBox">
+      <h2>🔐 Admin Login</h2>
+      <input id="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+      <button onclick="login()">Đăng nhập</button>
+    </div>
+
+    <!-- ADMIN FORM -->
+    <div class="box hidden" id="adminBox">
+      <h2>📦 Nhập sản phẩm</h2>
+
+      <input id="code" placeholder="Mã sản phẩm (AD81)" />
+      <input id="name" placeholder="Tên sản phẩm" />
+      <input id="brand" placeholder="Brand (không bắt buộc)" />
+      <input id="size" placeholder="Size" />
+      <input id="price" type="number" placeholder="Giá thuê" />
+      <input id="deposit" type="number" placeholder="Tiền cọc" />
+      <input id="image" placeholder="Link ảnh" />
+
+      <button onclick="addProduct()">Lưu sản phẩm</button>
+      <button onclick="logout()">Đăng xuất</button>
+    </div>
+
+    <!-- FIREBASE -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import {
+        getFirestore,
+        doc,
+        setDoc,
+      } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+      import {
+        getAuth,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+        signOut,
+      } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+      const firebaseConfig = {
+        apiKey: "API_KEY",
+        authDomain: "PROJECT.firebaseapp.com",
+        projectId: "PROJECT_ID",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+      const auth = getAuth(app);
+
+      const loginBox = document.getElementById("loginBox");
+      const adminBox = document.getElementById("adminBox");
+
+      // LOGIN
+      window.login = async function () {
+        const email = email.value;
+        const password = password.value;
+        await signInWithEmailAndPassword(auth, email, password);
+      };
+
+      // LOGOUT
+      window.logout = async function () {
+        await signOut(auth);
+      };
+
+      // CHECK LOGIN
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          loginBox.classList.add("hidden");
+          adminBox.classList.remove("hidden");
+        } else {
+          loginBox.classList.remove("hidden");
+          adminBox.classList.add("hidden");
+        }
+      });
+
+      // ADD PRODUCT
+      window.addProduct = async function () {
+        let code = document.getElementById("code").value.trim().toUpperCase();
+        if (!code.startsWith("AD")) code = "AD" + code;
+
+        const brand = document.getElementById("brand").value.trim();
+
+        const data = {
+          name: name.value,
+          size: size.value,
+          price: Number(price.value),
+          deposit: Number(deposit.value),
+          image: image.value,
+          ...(brand && { brand }),
+        };
+
+        await setDoc(doc(db, "products", code), data);
+        alert("✅ Đã lưu " + code);
+      };
+    </script>
+  </body>
+</html>
+

@@ -1,22 +1,94 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>COSILLA</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Clothing – Thuê đồ</title>
 
-<div id="app"></div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f1c8d1;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin: 20px 0;
+      }
 
-<!-- Modal -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <span id="closeModal">&times;</span>
-    <div id="modalBody"></div>
-  </div>
-</div>
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 16px;
+        margin-top: px;
+      }
 
-<script src="script.js"></script>
-</body>
+      .card {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .card img {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>🌷 Danh sách sản phẩm 🌷</h1>
+    <div id="products" class="products"></div>
+
+    <!-- FIREBASE + JAVASCRIPT -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import {
+        getFirestore,
+        collection,
+        getDocs,
+      } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+      /* 🔹 DÁN CONFIG CỦA BẠN VÀO ĐÂY */
+      const firebaseConfig = {
+        apiKey: "AIzaSyDEhLtpnDKTMTBq2wlMiox56cXmOLdi7Lg",
+        authDomain: "anhduc-a60b2.firebaseapp.com",
+        projectId: "anhduc-a60b2",
+      };
+
+      /* 🔹 Kết nối Firebase */
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+
+      console.log("✅ Đã kết nối Firebase");
+
+      /* 🔹 Lấy toàn bộ sản phẩm */
+      const productsRef = collection(db, "products");
+      const snapshot = await getDocs(productsRef);
+
+      const container = document.getElementById("products");
+
+      snapshot.forEach((doc) => {
+        const p = doc.data();
+
+        container.innerHTML += `
+        <div class="card">
+          <img src="${p.image}">
+          <h3>${p.name}</h3>
+          ${
+            p.brand && p.brand.trim() !== ""
+              ? `<p class="brand"><b>Brand:</b> ${p.brand}</p>`
+              : ""
+          }
+          <p><b>Size:</b> ${p.size}</p>
+          <p><b>Giá thuê:</b> ${p.price}</p>
+          <p><b>Tiền cọc:</b> ${p.deposit}</p>
+        </div>
+      `;
+      });
+    </script>
+  </body>
 </html>

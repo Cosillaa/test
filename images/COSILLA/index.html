@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>COSILLA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDEhLtpnDKTMTBq2wlMiox56cXmOLdi7Lg",
+      authDomain: "anhduc-a60b2.firebaseapp.com",
+      projectId: "anhduc-a60b2",
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    console.log("✅ Firebase đã kết nối thành công", db);
+  </script>
+</html>
